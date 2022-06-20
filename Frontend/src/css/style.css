@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+body{
+  font-family: 'Rubik';
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.display{
+  font-family: 'Rubik';
+}
+
+.card-group{
+  width: 80%;
+}
+
+.bigcheckbox{
+width: 50px;
+height: 50px;
+align-self: center;
+}
+
+
+.center {
+  margin: auto;
+  width: 35%;
+  border: 2px red solid;
+}
+.bg-amarelo {
+  background-color: #FFCC00;
+}
+
+.bg-amarelo1 {
+  background-color: #DCD587;
+}
+
+.icon-color-amarelo1 {
+  background-color: #DCD587;
+  width: 5rem;
+  height: 5rem;
+}
+
+.bg-azul {
+  background-color: #64C3C7;
+}
+
+.icon-bg-azul {
+  background-color: #64C3C7;
+  width: 5rem;
+  height: 5rem;
+}
+
+.bg-laranja {
+  background-color: #FFA373;
+}
+
+.icon-color-laranja {
+  background-color: #FFA373;
+  width: 5rem;
+  height: 5rem;
+}
+
+.bg-roxo {
+  background-color: #C9A9E8;
+}
+
+.btnSubmeter {
+  background-color: #FFCC00;
+  text-align: center;
+  color:white;
+  border: none;
+  font-size: 30px;
+  width: 25%;
+}
+
+.btn-primary:hover{
+  background-color: #FFCC00;
+}
+
+.btn-primary:enabled {
+  background-color: #FFCC00;
+}
+
+.footer-text {
+  font-size: 100px;
+}
+
+.btnSubmeter1 {
+  background-color: #FFCC00;
+  text-align: center;
+  color: white;
+  border: none;
+  font-size: 30px;
+  width: 30%;
+}
+
+.icon-color-roxo {
+  background-color: #C9A9E8;
+  width: 5rem;
+  height: 5rem;
+}
+
+.bg-amareloesverdeado {
+  background-color: #DEB200;
+}
+
+.boxes-image{
+  width: 30%;
+  height: 25%;
+  position:relative;
+}
+
+.tx-amarelo {
+  color: #FFCC00;
+}
+
+.bg-branco {
+  background-color: #ffffff;
+}
+.tx-branco {
+  color: #ffffff;
+}
+
+.bg-escuro {
+  background-color: #373d4b;
+}
+
+.bg-preto {
+  background-color: #000000;
+}
+
+.gold-premium {
+  background-color: #DEB200;
+  border: none;
+}
+
+.gold-premium:hover {
+  background-color: #DEB200;
+  border: none;
+}
+
+.rosa-normal {
+  background-color: #FFA373;
+  border: none;
+}
+
+.rosa-normal:hover {
+  background-color: #FFA373;
+  border: none;
+}
+
+.destaque{
+  font-size: 400%;
+}
+li{
+  list-style-type: none;
+}
+
+.margem-cima{
+  margin-top: 10%;
+   
+}
+
+.margem-icons-top{
+  margin-top: 10%;
+}
+
+
+/*Navbar*/
+.navbar-brand{
+  width: 7%;
+}
+
+/*Parte 1*/
+
+
+
+/*Parte 2*/
+.parte2{
+  position: relative;
+}
+
+.telemovel2{
+  width: 60%;
+  position: absolute;
+  left: -23%;
+}
+
+.sobre{
+  margin-top: 15%;
+}
+
+
+.icons3 {
+  width: 100%;
+}
+
+
+/*PARTE 4*/
+.pergunta{
+  border-radius: 25px;
+  width: 100%;
+}
+
+.btn-link:hover{
+  color: rgb(185, 185, 185);
+  text-decoration: none;
+}
+
+/*PARTE 5*/
+.bicolor{
+  background-image: linear-gradient( to bottom, #f7b700 50%, #373d4b 50% );
+}
+
+/*Parte 6*/
+
+
+/*Footter*/
+.social {
+  width: 10%;
+}
