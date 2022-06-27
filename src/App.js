@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Menu from './view/menu';
-import PacksPredefenidos from './view/packsPrefeitos';
-import PacksEscolhidos from './view/packsEscolhidos';
-import PacksPersonalizados from './view/packsPersonalizados';
+import PacksPrefeitos from './view/packsPrefeitos';
+import PacksEscolhidos from './view/PacksEscolhidos';
+import PacksPersonalizados from './view/PacksPersonalizados';
 
 
 import Form from './view/form';
@@ -20,7 +20,7 @@ function App() {
           <div className="row">
             <Routes>
               <Route path="/" element={<Menu/>} />
-              <Route path="/packsprefeitos" element={<PacksPredefenidos />} />
+              <Route path="/packsprefeitos" element={<PacksPrefeitos />} />
               <Route path="/packsescolhidos" element={<PacksEscolhidos />} />
               <Route path="/packspersonalizados" element={<PacksPersonalizados />} />
 

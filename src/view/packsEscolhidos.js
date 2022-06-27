@@ -14,26 +14,7 @@ class packsEscolhidos extends React.Component {
       <div class="wrapper ">
 
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-amareloesverdeado fixed-top py-3">
-          <div class="container-fluid">
-            <Link to="/" class="col-6 col-sm-2">
-              <img src={logotipoincommun} class="mx-4 navbar-brand w-75" alt="logotipoincommun" />
-            </Link>
-
-            <div class=" col-lg-d-flex">
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav list-group ">
-                  <li class="nav-item active mx-3">
-                    <Link class="nav-link h3 text-white">
-                      Menu
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-          </div>
-        </nav>
+        
 
         <div class="bg-amarelo py-5" >
           <div class="container-fluid">
