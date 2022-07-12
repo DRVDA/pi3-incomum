@@ -18,7 +18,7 @@ export default function packsPrefeitos() {
   const [packList, setdataPack] = useState([]);
 
   useEffect(() => {
-    const url = "https://backend-incomum.herokuapp.com/packs/list/";
+    const url = "https://backend-incomum.herokuapp.com/packsfrontoffice/list/";
     axios
       .get(url)
       .then((res) => {
