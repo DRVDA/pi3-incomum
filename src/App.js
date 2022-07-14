@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+
 import Menu from './view/menu';
 import PacksPrefeitos from './view/packsPrefeitos';
 import PacksEscolhidos from './view/PacksEscolhidos';
