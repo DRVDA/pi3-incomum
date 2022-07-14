@@ -14,7 +14,7 @@ import "../css/style.css";
 
 export default function Menu() {
   return (
-      <div class="container-fluid">
+      <div className="container-fluid">
 
        estgv19271
       </div>
