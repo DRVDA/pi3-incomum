@@ -10,6 +10,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import '../css/style.css';
 
+import Navbar from "../component/Navbar";
+
+
 /*Images*/
 import logotipoincommun from "../images/logotipoincommun.png";
 import boxes from "../images/boxes.png";
@@ -96,6 +99,9 @@ export default function packsPrefeitos() {
 
   return (
     <div className="wrapper ">
+      <Navbar/>
+
+
     <div className="bg-amarelo py-5" >
           <div className="container-fluid">
             <div className="row mt-5">

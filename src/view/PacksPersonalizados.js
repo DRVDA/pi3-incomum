@@ -4,6 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Link } from "react-router-dom";
 
+import Navbar from "../component/Navbar";
+
+
 /*Images*/
 import logotipoincommun from "../images/logotipoincommun.png";
 
@@ -12,6 +15,7 @@ class packsPersonalizados extends React.Component {
   render() {
     return (
       <div className="wrapper ">
+      <Navbar/>
 
 
         
