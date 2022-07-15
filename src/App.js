@@ -24,7 +24,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Menu/>} />
               <Route path="/packsprefeitos" element={<PacksPrefeitos />} />
-              <Route path="/verInfoPack/:idPack" element={<VerInfoPack />} />
+              <Route path="/verInfoPack/:idpack" element={<VerInfoPack />} />
               <Route path="/packsescolhidos" element={<PacksEscolhidos />} />
               <Route path="/packspersonalizados" element={<PacksPersonalizados />} />
 

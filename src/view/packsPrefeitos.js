@@ -314,11 +314,11 @@ export default function packsPrefeitos() {
     return packList1.map((data, index) => {
       return (
         
-        <div className="col-sm-12 col-lg-4 " to={"/packsEdit/" + data.idpack}>
+        <div className="col-sm-12 col-lg-4 " >
           <div className="card card-body bg-amarelo1 text-white" >
-            <div className="py-3 bg-light text-amarelo1">
+            <Link className="py-3 bg-light text-amarelo1" to={"/verInfoPack/" + data.idpack}>
               <h1 className="text-center ">{data.nome}</h1>
-            </div>
+            </Link>
             <input className="bigcheckbox form-check-input" type="checkbox" ></input>
           </div>
         </div>

@@ -16,7 +16,7 @@ export default function Menu() {
     <div className="container-fluid bg-amarelo text-white">
       <Navbar/>
 
-      <div className="container">
+      <div className="container menufullscreenbig">
         <div className="row justify-content-md-center">
           <div className="col col-lg-4">
             <div className="row col-12">
