@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Menu from './view/menu';
 import PacksPrefeitos from './view/packsPrefeitos';
 import VerInfoPack from './view/verInfoPack';
-import PacksEscolhidos from './view/packsEscolhidos';
-import PacksPersonalizados from './view/packsPersonalizados';
+import PacksEscolhidos from './view/PacksEscolhidos';
+import PacksPersonalizados from './view/PacksPersonalizados';
 
 import Teste from './view/teste';
 
