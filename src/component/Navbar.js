@@ -10,9 +10,9 @@ function Navbar() {
             src={require("../images/logotipoincommun.png")}
             className="img-fluid w-25"
           />
-          <div className="p-2 bd-highlight text-white">
+          <div className="p-2 bd-highlight text-white text-decoration-none">
             <Link to="/" className="text-white">
-            <h4>
+            <h4 className="text-decoration-none">
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"

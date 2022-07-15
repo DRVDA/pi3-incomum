@@ -13,7 +13,7 @@ import Navbar from "../component/Navbar";
 
 export default function Menu() {
   return (
-    <div className="container-fluid bg-amarelo text-white">
+    <div className="container-fluid bg-amarelo text-white menufullscreenbig">
       <Navbar/>
 
       <div className="container menufullscreenbig">
@@ -48,7 +48,7 @@ export default function Menu() {
               <h5 className="col-5 ms-4 decoration-none ">
                 <Link
                   to="/packsprefeitos"
-                  className="text-white decoration-none"
+                  className="text-white decoration-none gabelinks3"
                 >
                   Prefeitos
                 </Link>
@@ -59,7 +59,7 @@ export default function Menu() {
               <h5 className="col-5 ms-4 decoration-none ">
                 <Link
                   to="/packspersonalizados"
-                  className="text-white decoration-none"
+                  className="text-white decoration-none gabelinks3"
                 >
                   Personalizados
                 </Link>
