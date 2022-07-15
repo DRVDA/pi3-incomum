@@ -5,9 +5,11 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 import Menu from './view/menu';
 import PacksPrefeitos from './view/packsPrefeitos';
+import VerInfoPack from './view/verInfoPack';
 import PacksEscolhidos from './view/PacksEscolhidos';
 import PacksPersonalizados from './view/PacksPersonalizados';
 
+import Teste from './view/teste';
 
 import Form from './view/form';
 import List from './view/list';
@@ -22,12 +24,12 @@ function App() {
             <Routes>
               <Route path="/" element={<Menu/>} />
               <Route path="/packsprefeitos" element={<PacksPrefeitos />} />
+              <Route path="/verInfoPack/:idPack" element={<VerInfoPack />} />
               <Route path="/packsescolhidos" element={<PacksEscolhidos />} />
               <Route path="/packspersonalizados" element={<PacksPersonalizados />} />
 
-              <Route path="/list" element={<List />} />
-              <Route path="/form" element={<Form />} />
-              <Route path="/edit/:filmeid" element={<Edit />} />
+              <Route path="/teste" element={<Teste />} />
+             
             </Routes>
           </div>
       </div>

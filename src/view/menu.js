@@ -16,9 +16,9 @@ export default function Menu() {
     <div className="container-fluid bg-amarelo text-white">
       <Navbar/>
 
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col col-lg-4">
+      <div className="container">
+        <div className="row justify-content-md-center">
+          <div className="col col-lg-4">
             <div className="row col-12">
               <h6 className="col-1">01.</h6>
               <h3 className="col-5">Sobre nós</h3>
@@ -32,7 +32,7 @@ export default function Menu() {
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-caret-right-fill"
+                  className="bi bi-caret-right-fill"
                   viewBox="0 0 16 16"
                 >
                   <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
@@ -75,7 +75,7 @@ export default function Menu() {
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-caret-right-fill"
+                  className="bi bi-caret-right-fill"
                   viewBox="0 0 16 16"
                 >
                   <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
@@ -91,9 +91,9 @@ export default function Menu() {
               <h3 className="col-5">Contactos</h3>
             </div>
           </div>
-          <div class="col-md-3"></div>
+          <div className="col-md-3"></div>
 
-          <div class="col col-lg-2">
+          <div className="col col-lg-2">
             <h5>
               <b>Telefone</b>:
             </h5>

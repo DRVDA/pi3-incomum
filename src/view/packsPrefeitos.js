@@ -125,7 +125,7 @@ export default function packsPrefeitos() {
             <div className="row justify-content-between">
 
               <div >
-                <h1 className="mx-4 display-4 ">
+                <h1 className="mx-4 display-4 text-center">
                   <b>Packs predefinidos</b>
                 </h1>
 
@@ -146,70 +146,7 @@ export default function packsPrefeitos() {
 
                               </div>
                             </div>
-
                           </div>
-                          <div className="carousel-item">
-                            <div className="container">
-                              <div className="row">
-
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-amarelo1 text-white" >
-                                    <h1 className="text-center ">Boost</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input" type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-amarelo1 text-white" >
-                                    <h1 className="text-center ">Boost2</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input" type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-amarelo1 text-white" >
-                                    <h1 className="text-center ">Boost3</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input" type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                              </div>
-                            </div>
-                          </div>
-
                         </div>
                         <a href="#inam" className="carousel-control-prev" data-slide="prev">
                           <span className="carousel-control-prev-icon icon-color-amarelo1"></span>
@@ -241,72 +178,9 @@ export default function packsPrefeitos() {
 
                               <LoadFillDataDesignGrafico />
 
-
-                              </div>
-                            </div>
-
-                          </div>
-                          <div className="carousel-item">
-                            <div className="container">
-                              <div className="row">
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-azul text-white" >
-                                    <h1 className="text-center ">Boost</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input " type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-azul text-white" >
-                                    <h1 className="text-center ">Boost2</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input " type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-azul text-white" >
-                                    <h1 className="text-center ">Boost3</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input " type="checkbox" ></input>
-                                  </div>
-                                </div>
-
                               </div>
                             </div>
                           </div>
-
                         </div>
                         <a href="#inam" className="carousel-control-prev" data-slide="prev">
                           <span className="carousel-control-prev-icon icon-bg-azul"></span>
@@ -341,69 +215,7 @@ export default function packsPrefeitos() {
 
                               </div>
                             </div>
-
                           </div>
-                          <div className="carousel-item">
-                            <div className="container">
-                              <div className="row">
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-laranja text-white" >
-                                    <h1 className="text-center ">Boost</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input " type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-laranja text-white" >
-                                    <h1 className="text-center ">Boost2</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input " type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-laranja text-white" >
-                                    <h1 className="text-center ">Boost3</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input " type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                              </div>
-                            </div>
-                          </div>
-
                         </div>
                         <a href="#inam" className="carousel-control-prev" data-slide="prev">
                           <span className="carousel-control-prev-icon icon-color-laranja"></span>
@@ -437,69 +249,7 @@ export default function packsPrefeitos() {
 
                               </div>
                             </div>
-
                           </div>
-                          <div className="carousel-item">
-                            <div className="container">
-                              <div className="row">
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-roxo text-white" >
-                                    <h1 className="text-center ">Boost</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input " type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-roxo text-white" >
-                                    <h1 className="text-center ">Boost2</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input " type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                                <div className="col-sm-12 col-lg-4 ">
-                                  <div className="card card-body bg-roxo text-white" >
-                                    <h1 className="text-center ">Boost3</h1>
-                                    <div className="card-body text-white">
-                                      <div className=" bg-light text-black">
-                                        <div className="py-3">
-                                          <h3 className="mx-3 mt-3">2 Publicações</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                                          <hr className="rounded"></hr>
-                                          <h3 className="mx-3 mt-3">Semanal</h3>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <input className="bigcheckbox form-check-input " type="checkbox" ></input>
-                                  </div>
-                                </div>
-
-                              </div>
-                            </div>
-                          </div>
-
                         </div>
                         <a href="#inam" className="carousel-control-prev" data-slide="prev">
                           <span className="carousel-control-prev-icon icon-color-roxo"></span>
@@ -563,21 +313,13 @@ export default function packsPrefeitos() {
     
     return packList1.map((data, index) => {
       return (
-        <div className="col-sm-12 col-lg-4 ">
+        
+        <div className="col-sm-12 col-lg-4 " to={"/packsEdit/" + data.idpack}>
           <div className="card card-body bg-amarelo1 text-white" >
-            <h1 className="text-center ">{data.idpack} - {data.nome}</h1>
-            <div className="card-body text-white">
-              <div className=" bg-light text-black">
-                <div className="py-3">
-                  <h3 className="mx-3 mt-3">2 Publicações</h3>
-                  <hr className="rounded"></hr>
-                  <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                  <hr className="rounded"></hr>
-                  <h3 className="mx-3 mt-3">Semanal</h3>
-                </div>
-              </div>
+            <div className="py-3 bg-light text-amarelo1">
+              <h1 className="text-center ">{data.nome}</h1>
             </div>
-            {data.preco}<input className="bigcheckbox form-check-input" type="checkbox" ></input>
+            <input className="bigcheckbox form-check-input" type="checkbox" ></input>
           </div>
         </div>
       );
@@ -592,7 +334,7 @@ export default function packsPrefeitos() {
 
         <div className="col-sm-12 col-lg-4 ">
           <div className="card card-body bg-azul text-white" >
-            <h1 className="text-center ">{data.idpack} - {data.nome}</h1>
+            <h1 className="text-center ">{data.nome}</h1>
             <div className="card-body text-white">
               <div className=" bg-light text-black">
                 <div className="py-3">
@@ -604,7 +346,7 @@ export default function packsPrefeitos() {
                 </div>
               </div>
             </div>
-            {data.preco}<input className="bigcheckbox form-check-input" type="checkbox" ></input>
+            <input className="bigcheckbox form-check-input" type="checkbox" ></input>
           </div>
         </div>
 
@@ -620,7 +362,7 @@ export default function packsPrefeitos() {
 
         <div className="col-sm-12 col-lg-4 ">
           <div className="card card-body bg-laranja text-white" >
-            <h1 className="text-center ">{data.idpack} - {data.nome}</h1>
+            <h1 className="text-center ">{data.nome}</h1>
             <div className="card-body text-white">
               <div className=" bg-light text-black">
                 <div className="py-3">
@@ -632,7 +374,7 @@ export default function packsPrefeitos() {
                 </div>
               </div>
             </div>
-            {data.preco}<input className="bigcheckbox form-check-input" type="checkbox" ></input>
+            <input className="bigcheckbox form-check-input" type="checkbox" ></input>
           </div>
         </div>
 
@@ -648,7 +390,7 @@ export default function packsPrefeitos() {
 
         <div className="col-sm-12 col-lg-4 ">
           <div className="card card-body bg-roxo text-white" >
-            <h1 className="text-center ">{data.idpack} - {data.nome}</h1>
+            <h1 className="text-center ">{data.nome}</h1>
             <div className="card-body text-white">
               <div className=" bg-light text-black">
                 <div className="py-3">
@@ -660,7 +402,7 @@ export default function packsPrefeitos() {
                 </div>
               </div>
             </div>
-            {data.preco}<input className="bigcheckbox form-check-input" type="checkbox" ></input>
+            <input className="bigcheckbox form-check-input" type="checkbox" ></input>
           </div>
         </div>
 

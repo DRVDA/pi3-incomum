@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav class="navbar bg-amarelo">
-        <div class="container-fluid">
+    <nav className="navbar bg-amarelo">
+        <div className="container-fluid">
           <img
             src={require("../images/logotipoincommun.png")}
             className="img-fluid w-25"
           />
-          <div class="p-2 bd-highlight text-white">
+          <div className="p-2 bd-highlight text-white">
             <Link to="/" className="text-white">
             <h4>
 
@@ -19,7 +19,7 @@ function Navbar() {
                 width="25"
                 height="25"
                 fill="currentColor"
-                class="bi bi-list"
+                className="bi bi-list"
                 viewBox="0 0 16 16"
               >
                 <path
