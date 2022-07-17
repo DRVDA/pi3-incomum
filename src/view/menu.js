@@ -16,8 +16,8 @@ export default function Menu() {
     <div className="container-fluid bg-amarelo text-white menufullscreenbig">
       <Navbar/>
 
-      <div className="container menufullscreenbig">
-        <div className="row justify-content-md-center">
+      <div className="container menufullscreenbig gabemenumargin">
+        <div className="row justify-content-md-center ">
           <div className="col col-lg-4">
             <div className="row col-12">
               <h6 className="col-1">01.</h6>
@@ -82,32 +82,33 @@ export default function Menu() {
                 </svg>
               </h3>
             </div>
-            <div className="row col-12">
-              <h6 className="col-1">05.</h6>
-              <h3 className="col-5">Blog</h3>
+          
+              <div className="row col-12">
+                <h6 className="col-1">05.</h6>
+                <h3 className="col-5">Blog</h3>
+              </div>
+              <div className="row col-12">
+                <h6 className="col-1">06.</h6>
+                <h3 className="col-5">Contactos</h3>
+              </div>
             </div>
-            <div className="row col-12">
-              <h6 className="col-1">06.</h6>
-              <h3 className="col-5">Contactos</h3>
-            </div>
-          </div>
-          <div className="col-md-3"></div>
+            <div className="col-md-3"></div>
 
-          <div className="col col-lg-2">
-            <h5>
-              <b>Telefone</b>:
-            </h5>
-            <h6>+351 914 617 217</h6>
-            <h5>
-              <b>Endereço</b>:
-            </h5>
-            <h6>
-              incommun creative lab Rua da Ramalhosa 3510-775 Repeses, Viseu
-            </h6>
-            <h5>
-              <b>Email</b>:
-            </h5>
-            <h6>geral@incommun.pt</h6>
+            <div className="col col-lg-2">
+              <h4>
+                <b>Telefone</b>:
+              </h4>
+              <h6>+351 914 617 217</h6>
+              <h4>
+                <b>Endereço</b>:
+              </h4>
+              <h6>
+                incommun creative lab Rua da Ramalhosa 3510-775 Repeses, Viseu
+              </h6>
+              <h4>
+                <b>Email</b>:
+              </h4>
+              <h6>geral@incommun.pt</h6>
           </div>
         </div>
       </div>

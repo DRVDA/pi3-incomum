@@ -244,3 +244,20 @@ li{
 .gabelinks3{
   text-decoration: none;
 }
+
+.inclogosize{
+  margin-top: 0.6rem;
+  margin-left: 2rem;
+  width: 20rem;
+}
+
+.gabemenumargin
+{
+  margin-top: 5rem;
+  vertical-align: middle;
+}
+
+.gabemenumargin2{
+  margin-top: 1rem;
+  margin-right: 1rem;
+}

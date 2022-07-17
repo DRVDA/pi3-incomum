@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "../css/style.css";
 
 function Navbar() {
   return (
@@ -8,11 +10,11 @@ function Navbar() {
         <div className="container-fluid">
           <img
             src={require("../images/logotipoincommun.png")}
-            className="img-fluid w-25"
+            className="img-fluid inclogosize"
           />
-          <div className="p-2 bd-highlight text-white text-decoration-none">
+          <div className="p-2 bd-highlight text-white text-decoration-none gabemenumargin2">
             <Link to="/" className="text-white">
-            <h4 className="text-decoration-none">
+            <h3 className="gabelinks3 text-decoration-none">
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -27,9 +29,8 @@ function Navbar() {
                   d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
                 />
               </svg>
-              
               Menu
-            </h4>
+            </h3>
               </Link>
           </div>
         </div>
