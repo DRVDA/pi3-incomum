@@ -44,7 +44,7 @@ export default function packsPersonalizados() {
   const[campDGSlogan, setcampDGSlogan] = useState(false);
   const[campDGManualNormasGraficas, setcampDGManualNormasGraficas] = useState(false);
   const[campDGEstacionario, setcampDGEstacionario] = useState(false);  
-  const[campDGBrandingRebranding, setcampDG_brandingRebranding] = useState(false);
+  const[campDGBrandingRebranding, setcampDGBrandingRebranding] = useState(false);
   const[campDGEstrategiaMarca, setcampDGEstrategiaMarca] = useState(false);
   const[campDGRegistoMarcaDesignEditorial, setcampDGRegistoMarcaDesignEditorial] = useState(false);  
 
