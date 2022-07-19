@@ -84,17 +84,21 @@ export default function verInfoPack() {
         <div className=" bg-branco pt-5">
           <div className="container-fluid">
                 <div className="col-12 col-4 " >
-                    <div className="card card-body bg-amarelo1 text-white" >
+                    <div className="card card-body bg-roxo text-white" >
                         <div className="py-3 bg-light " >
 
-                        <h1 className="mx-4 display-4 text-center text-amarelo1">
+                        <h1 className="mx-4 display-4 text-center text-roxo">
                             {campNome}
                         </h1>
                         <div className="d-flex justify-content-center ">
-                          <div className="col-10 border bg-amarelo1 h-25"/>
+                          <div className="col-10 border bg-roxo h-25"/>
 </div>
                 <h6 className="mx-4 text-center text-dark">
-                    3 publicaçoes
+                  <br/>
+                    <h5>3 publicacões de instagram 3 vezes por semana </h5>
+                    <h5>2 reals de stories no youtube</h5>
+                    <h5>1 post Facebook</h5>
+                    <h5>1 redesign de páginas</h5>
                 </h6>
                         </div>
                     </div>

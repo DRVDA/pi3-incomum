@@ -5,7 +5,12 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 import Menu from './view/menu';
 import PacksPrefeitos from './view/packsPrefeitos';
-import VerInfoPack from './view/verInfoPack';
+
+import VerInfoPackAmarelo from './view/verInfoPackAmarelo';
+import VerInfoPackAzul from './view/verInfoPackAzul';
+import VerInfoPackLaranja from './view/verInfoPackLaranja';
+import VerInfoPackRoxo from './view/verInfoPackRoxo';
+
 import PacksEscolhidos from './view/PacksEscolhidos';
 import PacksPersonalizados from './view/PacksPersonalizados';
 
@@ -24,7 +29,12 @@ function App() {
             <Routes>
               <Route path="/" element={<Menu/>} />
               <Route path="/packsprefeitos" element={<PacksPrefeitos />} />
-              <Route path="/verInfoPack/:idpack" element={<VerInfoPack />} />
+
+              <Route path="/verInfoPackAmarelo/:idpack" element={<VerInfoPackAmarelo />} />
+              <Route path="/verinfopackAzul/:idpack" element={<VerInfoPackAzul />} />
+              <Route path="/verinfopackLaranja/:idpack" element={<VerInfoPackLaranja />} />
+              <Route path="/verinfopackRoxo/:idpack" element={<VerInfoPackRoxo />} />
+
               <Route path="/packsescolhidos" element={<PacksEscolhidos />} />
               <Route path="/packspersonalizados" element={<PacksPersonalizados />} />
 

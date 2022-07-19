@@ -332,24 +332,15 @@ export default function packsPrefeitos() {
       return (
         
 
-        <div className="col-sm-12 col-lg-4 ">
-          <div className="card card-body bg-azul text-white" >
-            <h1 className="text-center ">{data.nome}</h1>
-            <div className="card-body text-white">
-              <div className=" bg-light text-black">
-                <div className="py-3">
-                  <h3 className="mx-3 mt-3">2 Publicações</h3>
-                  <hr className="rounded"></hr>
-                  <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                  <hr className="rounded"></hr>
-                  <h3 className="mx-3 mt-3">Semanal</h3>
-                </div>
-              </div>
-            </div>
-            <input className="bigcheckbox form-check-input" type="checkbox" ></input>
-          </div>
-        </div>
 
+          <div className="col-sm-12 col-lg-4 " >
+            <div className="card card-body bg-azul text-white" >
+              <Link className="py-3 bg-light text-azul" to={"/verInfoPackAzul/" + data.idpack}>
+                <h1 className="text-center ">{data.nome}</h1>
+              </Link>
+              <input className="bigcheckbox form-check-input" type="checkbox" ></input>
+            </div>
+          </div>
 
       );
     });
@@ -359,25 +350,14 @@ export default function packsPrefeitos() {
     return packList3.map((data, index) => {
       return (
         
-
-        <div className="col-sm-12 col-lg-4 ">
-          <div className="card card-body bg-laranja text-white" >
-            <h1 className="text-center ">{data.nome}</h1>
-            <div className="card-body text-white">
-              <div className=" bg-light text-black">
-                <div className="py-3">
-                  <h3 className="mx-3 mt-3">2 Publicações</h3>
-                  <hr className="rounded"></hr>
-                  <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                  <hr className="rounded"></hr>
-                  <h3 className="mx-3 mt-3">Semanal</h3>
-                </div>
-              </div>
+<div className="col-sm-12 col-lg-4 " >
+            <div className="card card-body bg-laranja text-white" >
+              <Link className="py-3 bg-light text-laranja" to={"/verInfoPackLaranja/" + data.idpack}>
+                <h1 className="text-center ">{data.nome}</h1>
+              </Link>
+              <input className="bigcheckbox form-check-input" type="checkbox" ></input>
             </div>
-            <input className="bigcheckbox form-check-input" type="checkbox" ></input>
           </div>
-        </div>
-
 
       );
     });
@@ -388,24 +368,16 @@ export default function packsPrefeitos() {
       return (
         
 
-        <div className="col-sm-12 col-lg-4 ">
-          <div className="card card-body bg-roxo text-white" >
-            <h1 className="text-center ">{data.nome}</h1>
-            <div className="card-body text-white">
-              <div className=" bg-light text-black">
-                <div className="py-3">
-                  <h3 className="mx-3 mt-3">2 Publicações</h3>
-                  <hr className="rounded"></hr>
-                  <h3 className="mx-3 mt-3">Facebook / Instagram</h3>
-                  <hr className="rounded"></hr>
-                  <h3 className="mx-3 mt-3">Semanal</h3>
-                </div>
-              </div>
+<div className="col-sm-12 col-lg-4 " >
+            <div className="card card-body bg-roxo text-white" >
+              <Link className="py-3 bg-light text-roxo" to={"/verInfoPackRoxo/" + data.idpack}>
+                <h1 className="text-center ">{data.nome}</h1>
+              </Link>
+              <input className="bigcheckbox form-check-input" type="checkbox" ></input>
             </div>
-            <input className="bigcheckbox form-check-input" type="checkbox" ></input>
           </div>
-        </div>
 
+        
 
       );
     });

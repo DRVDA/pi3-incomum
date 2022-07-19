@@ -63,6 +63,10 @@ align-self: center;
   height: 5rem;
 }
 
+.text-azul {
+  color: #64C3C7;
+}
+
 .bg-laranja {
   background-color: #FFA373;
 }
@@ -73,8 +77,16 @@ align-self: center;
   height: 5rem;
 }
 
+.text-laranja {
+  color: #FFA373;
+}
+
 .bg-roxo {
   background-color: #C9A9E8;
+}
+
+.text-roxo {
+  color: #C9A9E8;
 }
 
 .btnSubmeter {
