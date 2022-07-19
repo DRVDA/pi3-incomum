@@ -316,7 +316,7 @@ export default function packsPrefeitos() {
         
         <div className="col-sm-12 col-lg-4 " >
           <div className="card card-body bg-amarelo1 text-white" >
-            <Link className="py-3 bg-light text-amarelo1" to={"/verInfoPack/" + data.idpack}>
+            <Link className="py-3 bg-light text-amarelo1" to={"/verInfoPackAmarelo/" + data.idpack}>
               <h1 className="text-center ">{data.nome}</h1>
             </Link>
             <input className="bigcheckbox form-check-input" type="checkbox" ></input>
